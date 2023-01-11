@@ -1,0 +1,42 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.productCard{
+    width: 300px;
+    background-color: #fbf7e3;
+    border-radius: 60px;
+    color: #612406;
+}
+.productCard img{
+    width: 100%;
+    border-radius: 60px 60px 0 0;
+}
+.productButton{
+ display: flex;
+ justify-content: center;
+}
+.productButton button{
+    background-color: #f3df85;
+    border: none;
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    font-size: larger;
+    
+}
+
+.description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+.description  h2, .description div p{
+    margin: 0;
+}
+.description>p{
+    font-weight: bold;
+    font-size: larger;
+}

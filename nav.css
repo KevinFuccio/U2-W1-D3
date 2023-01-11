@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fbf7e3;
+    border-radius: 50px;
+}
+nav button{
+    background-color: #f3df85;
+    border: none;
+    border-radius: 50px;
+    font-size: larger;
+    color: #612406;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+}
+nav button:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 24%;
+    height: 80px;
+}
+nav button:nth-child(3) img{
+    width: 70px;
+}

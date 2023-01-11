@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #612406;
+}
+article{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 340px;
+    background-color: #fbf7e3;
+    border-radius: 20px;
+    padding: 20px;
+}
+article img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+article div>h3{
+    margin-top: 0px;
+}
